@@ -1,0 +1,9 @@
+.idea/*
+.metadata
+
+LeetCode/.classpath
+LeetCode/.project
+LeetCode/.settings
+LeetCode/.idea/*
+LeetCode/out/*
+LeatCode/LeetCode.iml

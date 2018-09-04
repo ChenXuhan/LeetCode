@@ -4,19 +4,12 @@ import java.util.Scanner;
 import basic.TestVariable;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.LinkedHashSet;
 
 //import easy.NC03_ListNodeToArrayList;
-//
-//public class RunJava {
-//
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		ArrayList<Integer> reslut = NC03_ListNodeToArrayList;
-//	}
-//
-//}
-import pinduoduo.NC01_LongestBottom;
-public class Main {    
+import easy.NC22_PrintTree;
+public class Main {
     public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in);
 //        while(in.hasNext()){
@@ -45,7 +38,10 @@ public class Main {
 //    	solution.TestFindFirstCommonNode();
 //    	NC37_GeNumberOfK solution = new NC37_GeNumberOfK();
 //    	solution.TestGetNumberOfK();
-    	NC40_FindNumsApearOnce solution = new NC40_FindNumsApearOnce();
-    	solution.TestFindNumsAppearOnce();
+//    	NC40_FindNumsApearOnce solution = new NC40_FindNumsApearOnce();
+//    	solution.TestFindNumsAppearOnce();
+//    	NC41_FindPaires solution = new NC41_FindPaires();
+    	NC43_LeftRotateString solution = new NC43_LeftRotateString();
+    	solution.TestLeftRotateString();
     }
 }
